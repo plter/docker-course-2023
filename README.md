@@ -13,5 +13,7 @@ Docker course
 7. 用 IDE 编写 Dockerfile
 8. docker compose
 9. docker 集群搭建
-10. nfs 配置
-11. nfs 共享存储
+10. 在Docker集群中部署应用
+11. 使用sshFS共享数据
+12. 使用nfs共享数据
+13. 在Docker中挂载nfs
