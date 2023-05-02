@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - '80:80'
+    volumes:
+      - 'nfs_data:/data/nfs'
+
+volumes:
+  nfs_data:
+    driver_opts:
+      type: 'nfs'
+      o: 'addr=172.21.190.189'
+      device: ':/data/nfs'
